@@ -17,5 +17,8 @@ Including another URLconf
 from django.urls import path
 
 urlpatterns = [
+    path('omlet/', omlet),
+    path('pasta/', pasta),
+    path('buter/', buter),
     # здесь зарегистрируйте вашу view-функцию
 ]
